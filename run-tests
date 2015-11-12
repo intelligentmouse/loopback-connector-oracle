@@ -10,7 +10,7 @@ else
 fi
 if [ -z "$*" ]; then
   export UV_THREADPOOL_SIZE=64
-  $ROOT/node_modules/.bin/mocha -R spec --timeout 120000 --require $ROOT/test/init/init.js
+  $ROOT/node_modules/.bin/mocha -R spec --timeout 120000 --require $ROOT/test/init/init.js --reporter /home/biniam/jnksws/workspace/loopback-connector-oracle2/arch/s390x/os/sles-11/node_modules/build-framework/node_modules/mocha-jenkins-reporter
 else
   echo "Running provided test command: $*"
   $*
