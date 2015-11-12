@@ -11,7 +11,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "./runtest.js "
+    "test": "./runtest "
   },
   "dependencies": {
     "async": "^0.9.0",
