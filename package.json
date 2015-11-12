@@ -11,7 +11,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "/home/biniam/jnksws/workspace/loopback-connector-oracle2/arch/s390x/os/sles-11/node_modules/build-framework/node_modules/.bin/istanbul cover runtest.js "
+    "test": "./runtest.js "
   },
   "dependencies": {
     "async": "^0.9.0",
