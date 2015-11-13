@@ -10,6 +10,9 @@
     "Connector"
   ],
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec --timeout 120000 --require ./test/init/init.js"
+  },
   "dependencies": {
     "async": "^0.9.0",
     "debug": "^2.1.1",
